@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using WebAppDB.Models;
 
 namespace WebAppDB.Data
 {
@@ -11,6 +12,8 @@ namespace WebAppDB.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
+            Database.EnsureCreated();
         }
+        public DbSet<WebAppDB.Models.Employee> Employee { get; set; }
     }
 }
