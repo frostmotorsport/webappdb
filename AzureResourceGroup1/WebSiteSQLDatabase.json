@@ -84,7 +84,7 @@
     "sqlserverName": {
       "type": "string",
       "defaultValue": "webapp-fargher-sql"
-    },
+    }
   }, 
   "resources": [
     {
