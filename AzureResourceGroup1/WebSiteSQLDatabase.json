@@ -86,9 +86,6 @@
       "defaultValue": "webapp-fargher-sql"
     },
   }, 
-  "variables": {
-
-  },
   "resources": [
     {
       "name": "[parameters('sqlserverName')]",
