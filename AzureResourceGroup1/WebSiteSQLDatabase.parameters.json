@@ -18,7 +18,7 @@
       "value": "webapp-mvc-sf"
     },
     "sqlserverName": {
-      "value": "webapp-mmvc-sf-sql"
+      "value": "webapp-mvc-sf-sql"
     }
   }
 }
