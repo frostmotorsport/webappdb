@@ -79,11 +79,11 @@
     },
     "webSiteName": {
       "type": "string",
-      "defaultValue": "webapp-fargher"
+      "defaultValue": "webapp-mvc-sf"
     },
     "sqlserverName": {
       "type": "string",
-      "defaultValue": "webapp-fargher-sql"
+      "defaultValue": "webapp-mvc-sf-sql"
     }
   }, 
   "resources": [
