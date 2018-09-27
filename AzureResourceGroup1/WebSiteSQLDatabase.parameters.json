@@ -15,10 +15,10 @@
       "value": "webapp-fargher-db"
     },
     "webSiteName": {
-      "value": "webapp-fargher"
+      "value": "webapp-mvc-sf"
     },
     "sqlserverName": {
-      "value": "webapp-fargher-sql"
+      "value": "webapp-mmvc-sf-sql"
     }
   }
 }
